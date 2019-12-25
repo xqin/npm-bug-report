@@ -1,0 +1,11 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "safe-buffer": "^5.1.2"
+  },
+  "devDependencies": {
+    "node-sass": "4.13.0"
+  }
+}
