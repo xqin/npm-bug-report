@@ -6,6 +6,13 @@ node -v
 
 npm -v
 
-npm install --no-optional --no-audit --no-package-lock --only=dev
+time npm install -s --no-optional --no-audit --no-package-lock --only=prod
 
-npm list safe-buffer
+rm -rf node_modules/ ~/.npm/
+
+# switch npm version
+npm install -g npm@5.8.0
+
+npm -v
+
+time npm install -s --no-optional --no-audit --no-package-lock --only=prod
